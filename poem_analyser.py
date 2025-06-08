@@ -18,7 +18,7 @@ class Constants:
     CHARS_TO_DELETE = [".", ";", ",", "!", "¡", "?", "¿", ":"]
     UPPER_CASE_ALPHABET = ["-"] + [format(i, "c") for i in range(65, 91)]
     LOWER_CASE_ALPHABET = ["-"] + [format(i, "c") for i in range(97, 123)]
-    EQUIV = {1: "aguda", 2: "llana", 3: "esdrujula", 4: "sobresdrújula"}
+    EQUIV = {1: "aguda", 2: "llana", 3: "esdrújula", 4: "sobresdrújula"}
     CONVERT = {True: 1, False: 0}
 
 
@@ -336,16 +336,6 @@ Bajo el cielo de la tarde,
 el silencio se agranda.
 Camina la brisa suave
 por la tierra descansada.
-
-El sol pinta de colores
-los tejados y la calle,
-mientras vuelan mis amores
-en alas de un viejo valle.
-
-La noche se va acercando,
-y el sueño me acompaña,
-con la luna iluminando
-la quietud de la montaña.
 """
     obj2 = Poem(pm)
     print(obj2.verses, "\n", obj2.poem_type)
